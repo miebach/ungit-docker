@@ -8,8 +8,6 @@ RUN npm install -g ungit@${UNGIT_VER}
 
 RUN mkdir /data
 
-RUN rm -r /.ssh
-
 RUN mkdir /.ssh
 
 ADD dot-ungitrc /root/.ungitrc
