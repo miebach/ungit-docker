@@ -8,7 +8,9 @@ RUN npm install -g ungit@${UNGIT_VER}
 
 RUN mkdir /data
 
-RUN mkdir /root/.ssh
+RUN rm -r /.ssh
+
+RUN mkdir /.ssh
 
 ADD dot-ungitrc /root/.ungitrc
 #ADD known_hosts /root/.ssh/
