@@ -1,6 +1,10 @@
-# ungit
+# ungit-docker
 
-In a docker container
+Simple docker setup for `ungit` - https://github.com/FredrikNoren/ungit
+
+Dockerhub: https://hub.docker.com/r/miebach/ungit
+
+Github: https://github.com/miebach/ungit-docker
 
 ## Starting
 
@@ -26,4 +30,4 @@ This point could be improved.
 
 ## Credits
 
-Fork of https://github.com/mcrmonkey/ungit
+Started as a fork of https://github.com/mcrmonkey/ungit
