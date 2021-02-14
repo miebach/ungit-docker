@@ -10,7 +10,7 @@ docker run -it --rm -v $LOCALREPOBASE:/data miebach/ungit
 
 ```
 
-Go to http://1270.0.01:8448 - listens on `0.0.0.0:8448`.
+Go to http://127.0.0.1:8448 - listens on `0.0.0.0:8448`.
 
 
 ## Credits
