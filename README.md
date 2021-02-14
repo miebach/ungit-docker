@@ -10,7 +10,7 @@ Github: https://github.com/miebach/ungit-docker
 
 ```shell
 LOCALREPOBASE=$HOME/c # set to your base folder for local repositories
-docker run -it --rm -p 8448:8448 -v $LOCALREPOBASE:/data miebach/ungit
+docker run -it --rm -p 8448:8448 -v $LOCALREPOBASE:/data -v $HOME/.ssh:/home/node/.ssh miebach/ungit
 ```
 
 Go to http://127.0.0.1:8448 - you need to replace your local repository base directory from above with `/data/`. Example: 
