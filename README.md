@@ -1,18 +1,18 @@
 # ungit
 
-... in a container!
-
+In a docker container
 
 ## Starting
 
-run like so:
-
 ```shell
-docker run -it --rm -v /path/to/ur/repos/:/data mcrmonkey/ungit
+LOCALREPOBASE=$HOME/c # set to your base folder for local repositories
+docker run -it --rm -v $LOCALREPOBASE:/data miebach/ungit
 
 ```
 
-For the moment it will default to listening on tcp port `8448` and bind to
-`0.0.0.0`
+Go to http://1270.0.01:8448 - listens on `0.0.0.0:8448`.
 
 
+## Credits
+
+Fork of https://github.com/mcrmonkey/ungit
