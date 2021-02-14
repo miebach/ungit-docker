@@ -10,6 +10,8 @@ RUN mkdir /data
 
 RUN mkdir /root/.ssh
 
+RUN chown root.root /root/.ssh
+
 ADD dot-ungitrc /root/.ungitrc
 #ADD known_hosts /root/.ssh/
 
